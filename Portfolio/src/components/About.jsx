@@ -13,6 +13,8 @@ export const About = () => {
           <img className="intro__img" src = {img} 
             />
           
+        
+
         </section>
     </div>
   )
