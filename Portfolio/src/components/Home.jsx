@@ -1,8 +1,20 @@
+import img from '../assets/Images/Myself.jpg'
 export const Home = () => {
-  return (
+        // const navToggle = document.querySelector('.nav-toggle');
+        // const navLinks = document.querySelectorAll('.nav__link')
+    
+        // navToggle.addEventListener('click', () => {
+        // document.body.classList.toggle('nav-open');
+        // });
+    
+        // navLinks.forEach(link => {
+        //     link.addEventListener('click', () => {
+        //         document.body.classList.remove('nav-open');
+        //     })
+        // })
+    return (
     <div>
-      
-      <header>
+        <header>
             <button className="nav-toggle" aria-label="toggle navigation">
                 <span className="hamburger"></span>
             </button>
@@ -21,7 +33,9 @@ export const Home = () => {
                 Hi, I am <strong>Ezeakalue Jude</strong>
             </h1>
             <p className="section__subtitle section__subtitle--intro">FRONT-END DEV</p>
+            <img className="intro__img" src = {img} 
+            />
         </section>
     </div>
-  )
+)
 }
